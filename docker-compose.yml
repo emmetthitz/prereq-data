@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  web:
+    build: .
+    ports:
+      - "3100:3100"
+    volumes:
+      - ./src:/usr/src/app/src
+    command: "ruby app.rb"
