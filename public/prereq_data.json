@@ -28,7 +28,7 @@
             "coreq_formula":            [],
             "suggested_prereq_formula": ["MATH-1020","MATH-2010"],
             "suggested_coreq_formula":  []
-        },
+        }
     ],
     "ENGR_nodes":
     [   

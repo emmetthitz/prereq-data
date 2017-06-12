@@ -11,5 +11,3 @@ COPY . $INSTALL_PATH
 RUN apk add --update ruby-dev build-base
 
 RUN bundle install
-
-RUN ["ruby", "app.rb"]
