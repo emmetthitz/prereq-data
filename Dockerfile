@@ -12,4 +12,4 @@ RUN apk add --update ruby-dev build-base
 
 RUN bundle install
 
-CMD ["ruby", "app.rb"]
+RUN ["ruby", "app.rb"]
