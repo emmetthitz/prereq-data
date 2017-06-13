@@ -72,7 +72,7 @@
         },
         {
             "course_uid":               "CSCI-2200",
-            "prereq_formula":           ["CSCI-1200", 1],
+            "prereq_formula":           ["CSCI-1200", "META-1"],
             "coreq_formula":            [],
             "suggested_prereq_formula": ["CSCI-1200", "MATH-1020"],
             "suggested_coreq_formula":  []
@@ -114,21 +114,21 @@
         },
         {
             "course_uid":               "CSCI-4100",
-            "prereq_formula":           ["CSCI-2300", 2, 3],
+            "prereq_formula":           ["CSCI-2300", "META-2", 3],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
         },
         {
             "course_uid":               "CSCI-4110",
-            "prereq_formula":           ["CSCI-2300", 2],
+            "prereq_formula":           ["CSCI-2300", "META-2"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
         },
         {
             "course_uid":               "CSCI-4120",
-            "prereq_formula":           ["CSCI-2300", 2, 3],
+            "prereq_formula":           ["CSCI-2300", "META-2", 3],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -170,7 +170,7 @@
         },
         {
             "course_uid":               "CSCI-4250",
-            "prereq_formula":           ["CSCI-2300", 2, 3],
+            "prereq_formula":           ["CSCI-2300", "META-2", 3],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -366,21 +366,21 @@
         },
         {
             "course_uid":               "CSCI-6100",
-            "prereq_formula":           ["CSCI-2300", 2, 3],
+            "prereq_formula":           ["CSCI-2300", "META-2", 3],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
         },
         {
             "course_uid":               "CSCI-6110",
-            "prereq_formula":           ["CSCI-2300", 2],
+            "prereq_formula":           ["CSCI-2300", "META-2"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
         },
         {
             "course_uid":               "CSCI-6120",
-            "prereq_formula":           ["CSCI-2300", 2, 3],
+            "prereq_formula":           ["CSCI-2300", "META-2", 3],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -422,7 +422,7 @@
         },
         {
             "course_uid":               "CSCI-6250",
-            "prereq_formula":           ["CSCI-2300", 2, 3],
+            "prereq_formula":           ["CSCI-2300", "META-2", 3],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -599,72 +599,72 @@
     "meta_nodes":
     [
         {
-            "meta_uid":                 1,
+            "meta_uid":                 "META-1",
             "name":                     "Intro to Calculus",
             "contains":                 ["MATH-1020","MATH-1500"]
         },
         {
-            "meta_uid":                 2,
+            "meta_uid":                 "META-2",
             "name":                     "An advanced 4000-level algorithms based CSCI or MATH class",
             "contains":                 ["Help"]
         },
         {
-            "meta_uid":                 3,
+            "meta_uid":                 "META-3",
             "name":                     "Familiarity with probability, linear algebra, and calculus",
             "contains":                 ["Help"]
         },
         {
-            "meta_uid":                 4,
+            "meta_uid":                 "META-4",
             "name":                     "CSCI-4230/6230",
             "contains":                 ["CSCI-4230", "CSCI-6230"]
         },
         {
-            "meta_uid":                 5,
+            "meta_uid":                 "META-5",
             "name":                     "ECSE-4670 or CSCI-4220",
             "contains":                 ["ECSE-4670", "CSCI-4220"]
         },
         {
-            "meta_uid":                 6,
+            "meta_uid":                 "META-6",
             "name":                     "CSCI 4350/6350 or ITWS 4350/6350",
             "contains":                 ["CSCI-4350", "CSCI-6350", "ITWS-4350", "ITWS-6350"]
         },
         {
-            "meta_uid":                 7,
+            "meta_uid":                 "META-7",
             "name":                     "Data Science",
             "contains":                 ["CSCI-4960", "CSCI-6960", "ITWS-4960", "ITWS-6960", "ERTH-4960", "ERTH-6960"]
         },
         {
-            "meta_uid":                 8,
+            "meta_uid":                 "META-8",
             "name":                     "CSCI 4220 or equivalent",
             "contains":                 ["CSCI-4220", "Help"]
         },
         {
-            "meta_uid":                 9,
+            "meta_uid":                 "META-9",
             "name":                     "COGS 2520 or CSCI 2300",
             "contains":                 ["COGS-2520", "CSCI-2300"]
         },
         {
-            "meta_uid":                 10,
+            "meta_uid":                 "META-10",
             "name":                     "previous coursework or experience in computer graphics such as ECSE 4750 or computational geometry is recommended.",
             "contains":                 ["ECSE-4750", "Help"]
         },
         {
-            "meta_uid":                 11,
+            "meta_uid":                 "META-11",
             "name":                     "Any 2000-level CSCI/ECSE/ITWS course or permission of instructor",
             "contains":                 ["Help"]
         },
         {
-            "meta_uid":                 12,
+            "meta_uid":                 "META-12",
             "name":                     "MATH 4800 or CSCI 4800",
             "contains":                 ["CSCI-4800", "MATH-4800"]
         },
         {
-            "meta_uid":                 13,
+            "meta_uid":                 "META-13",
             "name":                     "CSCI-4230/6230",
             "contains":                 ["CSCI-4230", "CSCI-6230"]
         },
         {
-            "meta_uid":                 14,
+            "meta_uid":                 "META-14",
             "name":                     "ECSE-4670 or CSCI-4220",
             "contains":                 ["ECSE-4670", "CSCI-4220"]
         }
