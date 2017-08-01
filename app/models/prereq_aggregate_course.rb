@@ -1,0 +1,3 @@
+class AggregateCourse < ApplicationRecord
+	
+end

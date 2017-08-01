@@ -1,10 +1,13 @@
-version: '2'
-
+version: '3'
 services:
+  db:
+    image: postgres
   web:
     build: .
-    ports:
-      - "3100:3100"
+    command: bundle exec rails s -p 3000 -b '0.0.0.0'
     volumes:
-      - ./src:/usr/src/app/src
-    command: "bundle exec ruby app.rb"
+      - .:/usr/src/app
+    ports:
+      - "3100:3000"
+    depends_on:
+      - db

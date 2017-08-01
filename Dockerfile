@@ -1,13 +1,8 @@
-FROM ruby:alpine
-
-ENV SEMESTER 201709
-
-ENV INSTALL_PATH /usr/src/app/
-RUN mkdir -p $INSTALL_PATH
-
-WORKDIR $INSTALL_PATH
-COPY . $INSTALL_PATH
-
-RUN apk add --update ruby-dev build-base
-
+FROM ruby:2.4.0
+RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
+RUN mkdir /usr/src/app
+WORKDIR /usr/src/app
+ADD Gemfile /usr/src/app/Gemfile
+ADD Gemfile.lock /usr/src/app/Gemfile.lock
 RUN bundle install
+ADD . /usr/src/app

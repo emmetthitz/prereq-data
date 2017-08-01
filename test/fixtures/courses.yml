@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  uid: MyString
+  prereqs: MyString
+  coreqs: MyString
+  suggested_prereqs: MyString
+  suggested_coreqs: MyString
+
+two:
+  uid: MyString
+  prereqs: MyString
+  coreqs: MyString
+  suggested_prereqs: MyString
+  suggested_coreqs: MyString
